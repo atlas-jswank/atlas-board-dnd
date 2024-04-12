@@ -1,0 +1,28 @@
+.AddCard {
+    background: var(--off-white-light);
+    color: var(--blue);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: height .25s;    
+    height: 57px;
+}
+
+.AddCard:hover {
+    background: var(--off-white-light);
+    color: var(--blue);
+    width: 300px;
+    padding: 1em;
+    border-radius: 30px;
+    margin: .3em;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.AddCard:hover  img {
+    display: none;
+}
+
+.AddCard img {
+    width: 50px;
+}
